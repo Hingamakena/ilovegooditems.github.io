@@ -9,3 +9,6 @@
 	/* this is added code on height */
 	height: 300px;
 }
+#main_screed > div > div {
+	border: 1px solid black;
+}
