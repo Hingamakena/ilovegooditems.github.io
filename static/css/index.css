@@ -6,4 +6,6 @@
 }
 #main_screed > div {
 	border: 1px solid black;
+	/* this is added code on height */
+	height: 300px;
 }
