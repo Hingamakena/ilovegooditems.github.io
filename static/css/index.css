@@ -12,13 +12,3 @@
 #main_screed > div > div {
 	border: 1px solid black;
 }
-header {
-	display: flex;
-	align-items: center;
-	text-align: center;
-}
-footer {
-	display: flex;
-	align-item: center;
-	text-align: center;
-}
