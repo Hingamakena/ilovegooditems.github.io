@@ -12,3 +12,8 @@
 #main_screed > div > div {
 	border: 1px solid black;
 }
+body {
+	display: flex;
+	align-items: center;
+	justify-items: center;
+}
