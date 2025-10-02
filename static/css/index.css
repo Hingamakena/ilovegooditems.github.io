@@ -17,7 +17,12 @@ body, html {
 	border: 1px solid black;
 	text-align: center;
 }
-
+#main_screed img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	display: block;
+}
 header {
 	background-color: #2F2F40;
 	color: white;
