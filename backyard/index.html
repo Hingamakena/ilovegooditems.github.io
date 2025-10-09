@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="index.css">
+		<meta charset="UTF-8">
+		<meta name="keywords" content="['from all contents of all div elements']">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+		<header>
+			Make your home good looking
+		</header>
+		<main id="main_screed">
+			<script>
+        // An array with similar data (you can add more items if you want)
+        const products = [
+            {
+                url: "https://amzn.to/46Q4Rv0",
+                imgSrc: "https://m.media-amazon.com/images/I/61vEjplUwlL._AC_SX679_.jpg"
+            },
+            {
+                url: "https://amzn.to/46Q4Rv1",
+                imgSrc: "https://m.media-amazon.com/images/I/71vEjplUwlL._AC_SX679_.jpg"
+            },
+            {
+                url: "https://amzn.to/46Q4Rv2",
+                imgSrc: "https://m.media-amazon.com/images/I/61vEjplUwlL._AC_SX680_.jpg"
+            },
+            // Add more product objects as needed
+        ];
+
+        const mainDiv = document.getElementById("main_screed");
+
+        // Loop to create 20 similar divs
+        for (let i = 0; i < 20; i++) {
+            const product = products[i % products.length]; // Recycle through the products if there are less than 20
+
+            const div = document.createElement("div");
+            div.innerHTML = `
+                <a href="${product.url}">
+                    <img src="${product.imgSrc}" alt="Product Image">
+                </a>
+            `;
+            mainDiv.appendChild(div);
+        }
+    </script>
+		</main>
+		<footer>
+			coded by the software engineer, alumni of alx
+		</footer>
+	</body>
+</html>
