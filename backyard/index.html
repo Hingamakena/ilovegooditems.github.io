@@ -12,39 +12,52 @@
 			Make your home good looking
 		</header>
 		<main id="main_screed">
-			<script>
-        // An array with similar data (you can add more items if you want)
-        const products = [
-            {
-                url: "https://amzn.to/46Q4Rv0",
-                imgSrc: "https://m.media-amazon.com/images/I/61vEjplUwlL._AC_SX679_.jpg"
-            },
-            {
-                url: "https://amzn.to/46Q4Rv1",
-                imgSrc: "https://m.media-amazon.com/images/I/71vEjplUwlL._AC_SX679_.jpg"
-            },
-            {
-                url: "https://amzn.to/46Q4Rv2",
-                imgSrc: "https://m.media-amazon.com/images/I/61vEjplUwlL._AC_SX680_.jpg"
-            },
-            // Add more product objects as needed
-        ];
+	<script>
+		const products = [
+			{
+				"url":"https://amzn.to/3WvJA56",
+				"imgsrc":"https://m.media-amazon.com/images/I/81mkyyGVDuL._AC_SY300_SX300_QL70_FMwebp_.jpg"
+			},
+			{
+				"url":"https://amzn.to/4oiuMCZ",
+				"imgsrc":"https://m.media-amazon.com/images/I/71fATgj5scL._AC_SY300_SX300_QL70_FMwebp_.jpg"
+			},
+			{
+				"url":"https://amzn.to/4oiuMCZ",
+				"imgsrc":"https://m.media-amazon.com/images/I/71xqSxQOBzL._AC_SX569_PIbundle-8,TopRight,0,0_SH20_.jpg"
+			},
+			{
+				"url":"https://amzn.to/4mZgaay",
+				"imgsrc":"https://m.media-amazon.com/images/I/71XR1r2xuVL._AC_SY300_SX300_QL70_FMwebp_.jpg"
+			},
+			{
+				"url":"https://amzn.to/3IAYDHC",
+				"imgsrc":"https://m.media-amazon.com/images/I/71JM1dsFQ1L._AC_SX342_SY445_QL70_FMwebp_.jpg"
+			}
+		]
+		const mainDiv = document.getElementById("main_screed");
+	if(products.length > 0)
+	{
+		products.forEach(product => {
+			const div = document.createElement("div");
+			div.innerHTML = `
+				<a href="${product.url}">
+				<img src="${product.imgsrc}" alt="product image"></img>
+				</a>
+				`;
+			mainDiv.appendChild(div);
+		});
+	}
+	else
+	{
+		const noProduct = document.createElement('p');
+		noProduct.textContent = "No products available";
+		mainDiv.appendChild(noProduct);
 
-        const mainDiv = document.getElementById("main_screed");
+	}
 
-        // Loop to create 20 similar divs
-        for (let i = 0; i < 20; i++) {
-            const product = products[i % products.length]; // Recycle through the products if there are less than 20
 
-            const div = document.createElement("div");
-            div.innerHTML = `
-                <a href="${product.url}">
-                    <img src="${product.imgSrc}" alt="Product Image">
-                </a>
-            `;
-            mainDiv.appendChild(div);
-        }
-    </script>
+	</script>
 		</main>
 		<footer>
 			coded by the software engineer, alumni of alx
