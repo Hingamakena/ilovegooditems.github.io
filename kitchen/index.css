@@ -1,0 +1,50 @@
+body, html {
+	margin: 0;
+}
+#main_screed {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 1rem;
+	padding: 1rem;
+}
+#main_screed > div {
+	height: 420px;
+	text-align: center;
+	border: 1px solid black;
+	background-color: white;
+}
+#main_screed > div > div {
+	border: 1px solid black;
+	text-align: center;
+}
+#main_screed img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	display: block;
+}
+header {
+	background-color: #2F2F40;
+	color: white;
+	font-size: 45px;
+	text-align: center;
+	
+}
+footer {
+	text-align: center;
+	background-color: grey;
+}
+main {
+	background-image: url("../images/ab81a943-b6c6-407b-b007-f37e33bfe9ea.jpg")
+}
+#searchbox_holder{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#search_box {
+	width: 55%;
+	height: 30px;
+	text-align: center;
+}
