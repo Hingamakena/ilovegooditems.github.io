@@ -32,6 +32,14 @@ body, html {
 	scroll-behaviour: smooth;
 	padding: 20px 0;
 }
+.link_pages {
+	display: block;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	background-position: center;
+	border-radius: 10px;
+}
 header {
 	background-color: #2F2F40;
 	color: white;
