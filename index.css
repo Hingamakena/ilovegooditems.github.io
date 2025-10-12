@@ -23,6 +23,15 @@ body, html {
 	object-fit: contain;
 	display: block;
 }
+#to_the_pages {
+	display: flex;
+	flex-direction: column;
+	height: 15%;
+	overflow-y: auto;
+	scroll-snap-type: y mandatory;
+	scroll-behaviour: smooth;
+	padding: 20px 0;
+}
 header {
 	background-color: #2F2F40;
 	color: white;
