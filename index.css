@@ -29,14 +29,18 @@ body, html {
 	height: 15%;
 	overflow-y: auto;
 	scroll-snap-type: y mandatory;
-	scroll-behaviour: smooth;
+	scroll-behavior: smooth;
 	padding: 20px 0;
 }
 .link_pages {
 	display: block;
-	width: 100px;
+	padding: 10px 20px;
+	background-size: cover;
+	background-position: center;
 	height: 100px;
 	text-align: center;
+	margin-bottom: 10px;
+	text-decoration: none;
 	background-position: center;
 	border-radius: 10px;
 }
