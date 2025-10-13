@@ -23,6 +23,10 @@ body, html {
 	object-fit: contain;
 	display: block;
 }
+#to_the_pages {
+	display: flex;
+	flex-direction: column;
+}
 #enclosed_the_link {
 	border: 1px solid black;
 	width: 100px;
