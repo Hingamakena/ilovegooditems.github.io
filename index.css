@@ -28,6 +28,8 @@ body, html {
 	flex-direcion: column;
 	height: 100px;
 	width: 100px;
+	border: 1px solid black;
+	text-align: center;
 }
 header {
 	background-color: #2F2F40;
