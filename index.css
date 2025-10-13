@@ -23,13 +23,10 @@ body, html {
 	object-fit: contain;
 	display: block;
 }
-#to_the_pages > a {
-	display: flex;
-	flex-direction: column;
-	height: 100px;
-	width: 100px;
+#enclosed_the_link {
 	border: 1px solid black;
-	text-align: center;
+	width: 100px;
+	height: 100px;
 }
 header {
 	background-color: #2F2F40;
