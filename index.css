@@ -24,6 +24,7 @@ body, html {
 	display: block;
 }
 #to_the_pages {
+	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
 	height: 15%;
