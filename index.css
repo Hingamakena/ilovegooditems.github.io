@@ -23,7 +23,7 @@ body, html {
 	object-fit: contain;
 	display: block;
 }
-#to_the_pages {
+#to_the_pages > a {
 	display: flex;
 	flex-direcion: column;
 	height: 100px;
