@@ -24,7 +24,8 @@
 			const products = [
 				{
 					"url":"https://amzn.to/46Q4Rv0",
-					"imgsrc":"https://m.media-amazon.com/images/I/61vEjplUwlL._AC_SX679_.jpg"
+					"imgsrc":"https://m.media-amazon.com/images/I/61vEjplUwlL._AC_SX679_.jpg",
+					"price": "$1234"
 			},
 				{
 					"url":"https://amzn.to/4pOwhu1",
@@ -94,6 +95,7 @@
                                 <a href="${product.url}">
                                 <img src="${product.imgsrc}" alt="product image"></img>
                                 </a>
+								<p> "${product.price}"
                                 `;
                         mainDiv.appendChild(div);
                 });
