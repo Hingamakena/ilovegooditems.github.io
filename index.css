@@ -34,6 +34,7 @@ body, html {
 	padding: 20px 0;
 }
 .link_pages {
+	border: 1px solid black;
 	display: block;
 	padding: 10px 20px;
 	background-size: cover;
