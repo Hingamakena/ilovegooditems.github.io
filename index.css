@@ -23,7 +23,7 @@ body, html {
 	object-fit: contain;
 	display: block;
 }
-#to_the_pages {
+#tolinks {
 	display: flex;
 	flex-direction: column;
 	overflow-y: auto;
@@ -31,7 +31,7 @@ body, html {
 	gap: 10px;
 	padding: 10px;
 }
-#enclosed_the_link {
+#tolinks > div {
 	border: 1px solid black;
 	width: 100px;
 	height: 100px;
