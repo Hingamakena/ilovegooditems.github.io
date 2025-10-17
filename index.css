@@ -28,6 +28,7 @@ body, html {
 	display: flex;
  flex-direction: row;
  justify-content: flex-start;
+ align-items: center;
 	overflow-x: auto;
  border: 1px solid black;
 	gap: 10px;
