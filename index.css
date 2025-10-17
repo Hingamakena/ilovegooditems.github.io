@@ -31,7 +31,7 @@ body, html {
 	width: 100%;
 	height:100%;
 }
-#visit{
+#visit, #shopping {
 	display: flex;
 	justify-content: center;
 	align-items: center;
