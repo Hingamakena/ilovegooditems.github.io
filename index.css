@@ -48,8 +48,9 @@ body, html {
 	padding: 10px;
 }
 #tolinks > div {
-	display: flex;
- 	align-items: center;
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
  	text-align: center;
 	border: 1px solid black;
 	width: 200px;
