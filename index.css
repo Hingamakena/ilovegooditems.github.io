@@ -48,6 +48,7 @@ body, html {
 	padding: 10px;
 }
 #tolinks > div {
+ position: relative;
  display:flex;
  flex-direction: column;
  justify-content: center;
@@ -56,6 +57,11 @@ body, html {
 	width: 200px;
 	height: 200px;
 	flex-shrink: 0;
+}
+#tolinks p{
+ position: absolute;
+ top: 0;
+ left: 0;
 }
 header {
 	background-color: #2F2F40;
