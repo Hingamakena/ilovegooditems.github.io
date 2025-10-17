@@ -23,6 +23,9 @@ body, html {
 	object-fit: contain;
 	display: block;
 }
+#enclose_visits{
+	border: 1px solid black;
+}
 #tolinks img{
 	object-fit: contain;
 	width: 100%;
