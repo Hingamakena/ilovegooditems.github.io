@@ -47,17 +47,3 @@ footer {
 	text-align: center;
 	background-color: grey;
 }
-main {
-	background-image: url("../images/ab81a943-b6c6-407b-b007-f37e33bfe9ea.jpg")
-}
-#searchbox_holder{
-	background-color: black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-#search_box {
-	width: 55%;
-	height: 30px;
-	text-align: center;
-}
