@@ -24,7 +24,7 @@ body, html {
 	display: block;
 }
 #enclose_visits{
-	border: 1px solid black;
+	background-color: #36454F;
 }
 #tolinks img{
 	object-fit: contain;
