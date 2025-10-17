@@ -26,7 +26,6 @@ body, html {
 #tolinks {
  height: 150px;
 	display: flex;
-	flex-direction: row;
 	overflow-x: auto;
  border: 1px solid black;
 	gap: 10px;
