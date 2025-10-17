@@ -25,10 +25,9 @@ body, html {
 }
 #tolinks {
  height: 150px;
- background: lightblue;
 	display: flex;
-	flex-direction: column;
-	overflow-y: auto;
+	flex-direction: row;
+	overflow-x: auto;
  border: 1px solid black;
 	gap: 10px;
 	padding: 10px;
