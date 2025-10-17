@@ -38,10 +38,10 @@ body, html {
 	font-size: 25px;
 }
 #tolinks {
-	height: 200px;
+	height: 250px;
 	display: flex;
  	flex-direction: row;
- 	justify-content: flex-start;
+ 	justify-content: space-between;
  	align-items: center;
 	overflow-x: auto;
 	gap: 10px;
@@ -52,8 +52,8 @@ body, html {
  	align-items: center;
  	text-align: center;
 	border: 1px solid black;
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	flex-shrink: 0;
 }
 header {
