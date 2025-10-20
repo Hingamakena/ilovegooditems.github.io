@@ -58,11 +58,11 @@ body, html {
 	height: 200px;
 	flex-shrink: 0;
 }
-#tolinks p{
- position: absolute;
- top: 0;
- left: 0;
+.linkitems {
+  display: flex;
+  flex-direction: row;
 }
+
 header {
 	background-color: #2F2F40;
 	color: white;
