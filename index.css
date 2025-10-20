@@ -40,7 +40,7 @@ body, html {
 #sliding_categories {
 	height: 250px;
 	display: flex;
- 	flex-direction: column;
+ 	flex-direction: row;
  	justify-content: space-between;
  	align-items: center;
 	overflow-x: auto;
