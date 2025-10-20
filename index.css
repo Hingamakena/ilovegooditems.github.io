@@ -25,11 +25,6 @@ body, html {
 }
 #encloses_categories{
 }
-.category_image{
-	object-fit: contain;
-	width: 100%;
-	height:100%;
-}
 #visit, #shopping {
 	display: flex;
 	justify-content: center;
@@ -38,7 +33,7 @@ body, html {
 	font-size: 25px;
 }
 #sliding_categories {
-	height: 250px;
+	height: 200px;
 	display: flex;
  	flex-direction: row;
  	justify-content: space-between;
@@ -53,17 +48,21 @@ body, html {
  align-items: center;
  justify-content: center;
 	border: 1px solid black;
-	width: 180px;
+	width: 200px;
 	height: 200px;
 	flex-shrink: 0;
 }
-
 .category_name {
+  height:20%;
+  width:180px;
   text-align: center;
-  border: 1px solid black;
-  
+  border: 1px solid black; 
 }
-
+.category_image{
+ height:80%;
+ width:180px;
+	object-fit: contain;
+}
 header {
 	background-color: #2F2F40;
 	color: white;
