@@ -49,7 +49,7 @@ body, html {
 }
 .category_home {
  display:flex;
- flex-direction: row;
+ flex-direction: column;
  align-items: center;
  justify-content: center;
 	border: 1px solid black;
