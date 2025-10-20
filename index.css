@@ -57,15 +57,11 @@ body, html {
 	height: 200px;
 	flex-shrink: 0;
 }
+
 .category_name {
   text-align: center;
   border: 1px solid black;
   
-}
-
-.linkitems {
-  display: flex;
-  flex-direction: row;
 }
 
 header {
