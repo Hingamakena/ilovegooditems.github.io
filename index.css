@@ -57,6 +57,10 @@ body, html {
 	height: 200px;
 	flex-shrink: 0;
 }
+.category_name {
+  text-align: center;
+}
+
 .linkitems {
   display: flex;
   flex-direction: row;
