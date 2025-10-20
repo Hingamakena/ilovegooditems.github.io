@@ -59,6 +59,8 @@ body, html {
 }
 .category_name {
   text-align: center;
+  border: 1px solid black;
+  
 }
 
 .linkitems {
