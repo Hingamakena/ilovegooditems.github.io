@@ -56,13 +56,13 @@ body, html {
 }
 .category_name {
   height:20%;
-  width:180px;
+  width:200px;
   text-align: center;
   border: 1px solid black; 
 }
 .category_image{
  height:80%;
- width:180px;
+ width:200px;
 	object-fit: contain;
 }
 header {
