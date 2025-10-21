@@ -51,6 +51,7 @@ body, html {
 	border: 1px solid black;
 	width: 200px;
  overflow-y: hidden;
+ overflow-x: hidden;
 	height: 200px;
 	flex-shrink: 0;
 }
