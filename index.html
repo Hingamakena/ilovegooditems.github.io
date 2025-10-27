@@ -1,170 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="index.css">
-		<meta charset="UTF-8">
-		<meta name="keywords" content="['from all contents of all div elements']">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stulesheet" href="index.css">
 	</head>
 
 	<body>
-		<header>
-			Love it? just touch it 😉 
-		</header>
-  
-<div id="encloses_categories">
-								
-<p id="visit"> VISIT </p>
-<p id="scroll"> (swipe left or right to explore) </p>
- 
-<div id="sliding_categories">
+		<div id="main_div">
+			<div id="categories"> ['coffee tables', 'watches', 'kitchen wear', 'blenders', 'laptops']
+				<div id="search_slot">
+				</div>
+			</div>
 
-<div class="category_home">
-<div class="category_name">kitchen</div>
-<div class="category_image">
-<a href="kitchen">
-<img src="https://m.media-amazon.com/images/I/71fHCOxxqXL._AC_UL320_.jpg">
-</a>
-</div>
-</div>
-
-<div class="category_home">
-<div class="category_name">backyard</div>
-<div class="category_image">
-<a href="backyard">
-<img src="https://m.media-amazon.com/images/I/81yyEoSI1fL._AC_SX342_SY445_QL70_FMwebp_.jpg">
-</a>
-</div>
-</div>
-
-
-<div class="category_home">
-<div class="category_name">livingroom</div>
-<div class="category_image">
-<a href="livingroom">
-<img src="https://m.media-amazon.com/images/I/8163GTWr8vL._AC_UL320_.jpg">
-</a>
-</div>
-</div>
-
-<div class="category_home">
-<div class="category_name">bedroom</div>
-<div class="category_image">
-<a href="bedroom">
-<img src="https://m.media-amazon.com/images/I/71GECyRNt7L._AC_UL320_.jpg">
-</a>
-</div>
-</div>
-
-<div class="category_home">
-<div class="category_name">pet store</div>
-<div class="category_image">
-<a href="petstore">
-<img src="https://m.media-amazon.com/images/I/71fHCOxxqXL._AC_UL320_.jpg">
-</a>
-</div>
-</div>
-
-<div class="category_home">
-<div class="category_name">lighting</div>
-<div class="category_image">
-<a href="lighting">
-<img src="https://m.media-amazon.com/images/I/71xsZznDIUL._AC_UL320_.jpg">
-</a>
-</div>
-</div>
-
-<div class="category_home">
-<div class="category_name">garage</div>
-<div class="category_image">
-<a href="garage">
-<img src="https://m.media-amazon.com/images/I/81IezR7VEAL._AC_SX300_SY300_QL70_FMwebp_.jpg">
-</a>
-</div>
-</div>
-
-  
-</div>
-</div>
-
-<p id="shopping"> continue shopping </p>
-<p id="scroll"> click item to visit store<p/>
-
-		<main id="main_screed">
-		<script>
-			const products = [
-				{
-					"url":"https://amzn.to/3Ix8cY2",
-					"imgsrc":"https://m.media-amazon.com/images/I/81S6FPdEHWL._AC_SX679_PIbundle-5,TopRight,0,0_SH20_.jpg"
-				},
-				{
-					"url":"https://amzn.to/4pQOtDn",
-					"imgsrc":"https://m.media-amazon.com/images/I/61bIuqHQxsL._AC_SX679_.jpg"
-				},
-				{
-					"url":"https://amzn.to/4mLRhPu",
-					"imgsrc":"https://m.media-amazon.com/images/I/61WgPLonHHL._AC_SY675_.jpg"
-				},
-				{
-					"url":"https://amzn.to/4o75aZH",
-					"imgsrc":"https://m.media-amazon.com/images/I/71QDsaFZF9L._AC_SX425_.jpg"
-				},
-				{
-					"url":"https://amzn.to/46Q4Rv0",
-					"imgsrc":"https://m.media-amazon.com/images/I/61vEjplUwlL._AC_SX679_.jpg"
-				},
-				{
-					"url":"https://amzn.to/4pMdkrP",
-					"imgsrc":"https://m.media-amazon.com/images/I/81zR5lSE0kL._AC_SY300_SX300_QL70_FMwebp_.jpg"
-				},
-				{
-					"url":"https://amzn.to/3KuXv8Y",
-					"imgsrc":"https://m.media-amazon.com/images/I/71Qa99mgPPL._AC_SX466_.jpg"
-				},
-				{
-					"url":"https://amzn.to/3KpGkFR",
-					"imgsrc":"https://m.media-amazon.com/images/I/71p47GXRXKL._AC_SX342_SY445_QL70_FMwebp_.jpg"
-				},
-				{
-					"url":"https://amzn.to/476TGiT",
-					"imgsrc":"https://m.media-amazon.com/images/I/61fFKqdCtCL._AC_SY300_SX300_QL70_FMwebp_.jpg"
-				},
-				{
-					"url":"https://amzn.to/46zKWlo",
-					"imgsrc":"https://m.media-amazon.com/images/I/915MsLzjDGL._AC_SX679_.jpg"
-				},
-				{
-					"url":"https://amzn.to/46zKWlo",
-					"imgsrc":"https://m.media-amazon.com/images/I/618zHHX-xHL._AC_SY300_SX300_QL70_FMwebp_.jpg"
-				}
-			];
-
-		       const mainDiv = document.getElementById("main_screed");
-        if(products.length > 0)
-        {
-                products.forEach(product => {
-                        const div = document.createElement("div");
-                        div.innerHTML = `
-                                <a href="${product.url}">
-                                <img src="${product.imgsrc}" alt="product image"></img>
-                                </a>
-                                `;
-                        mainDiv.appendChild(div);
-                });
-        }
-        else
-        {
-                const noProduct = document.createElement('p');
-                noProduct.textContent = "No products available";
-                mainDiv.appendChild(noProduct);
-
-        }
-
-
-        </script>
-		</main>
-		<footer>
-			coded by the software engineer, alumni of alx
-		</footer>
+			<div id="products_container">
+				<div id="product_listing">
+					item product listing
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
