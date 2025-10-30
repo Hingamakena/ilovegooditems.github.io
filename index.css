@@ -7,18 +7,22 @@
 #item_description {
 	height: 15%;
 	width: 100%;
+	border: 1px solid black;
 }
 #item_image {
 	height: 45%;
 	width: 100%;
+	border: 1px solid black;
 }
 #rating_and_cost {
 	display: flex;
 	flex-direction: row;
 	height: 15%;
 	width: 100%;
+	border: 1px solid black;
 }
 #description {
 	height: 15%;
 	width: 100%;
+	border: 1px solid black;
 }
