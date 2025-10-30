@@ -1,16 +1,24 @@
-*body, html {
-	margin: 0;
+#product_overview{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 50%;
 }
-
-#maindiv {
-	height: 100vh;
-	width: 100vw;
+#item_description {
+	height: 15%;
+	width: 100%;
 }
-
-#categories {
-	height: 25%;
+#item_image {
+	height: 45%;
+	width: 100%;
 }
-
-#product_container {
-	height: 75%;
+#rating_and_cost {
+	display: flex;
+	flex-direction: row;
+	height: 15%;
+	width: 100%;
+}
+#description {
+	height: 15%;
+	width: 100%;
 }
